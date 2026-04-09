@@ -37,6 +37,9 @@
   <a href="https://colab.research.google.com/drive/1Lf-95znqXaWUGyY9bPeJQI9Eq7yBcpFl?usp=sharing">
     <img src="https://img.shields.io/badge/Colab-Demo-F9AB00.svg?logo=googlecolab&logoColor=white" alt="Colab Demo">
   </a>
+  <a href="https://huggingface.co/spaces/JonaRuthardt/SteerViT">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" alt="Hugging Face Spaces">
+  </a>
   <a href="https://huggingface.co/JonaRuthardt/SteerViT">
     <img src="https://img.shields.io/badge/Hugging%20Face-Model%20Weights-F9AB00.svg?logo=huggingface&logoColor=yellow" alt="Hugging Face Weights">
   </a>
