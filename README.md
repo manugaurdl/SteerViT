@@ -1,6 +1,9 @@
 <p>
   <h2 align="center">Steerable Visual Representations</h2>
   <p align="center">
+  <b>ECCV 2026 Oral</b>
+</p>
+  <p align="center">
     <a href="https://jonaruthardt.github.io" target="_blank">Jona Ruthardt</a><sup>1,*</sup>
     ·
     <a href="https://manugaurdl.github.io" target="_blank">Manu Gaur</a><sup>2,*</sup>
@@ -54,7 +57,7 @@
 
 SteerViT equips pretrained Vision Transformers with **steerable global and local visual representations**. Given an image and a natural-language prompt, the model conditions the visual encoder itself through lightweight gated cross-attention, producing prompt-aware patch features, global embeddings, and heatmaps while retaining the strengths of the pretrained ViT backbone.
 
-> 🔔 Model checkpoints, inference code, and the CORE evaluation script are available already. Full training code will be released soon.
+> 🔔 We released SteerViT variants that are **commercially usable** (Apache 2.0). You can find them [here](https://huggingface.co/JonaRuthardt/SteerViT).
 
 ## ✈️ Overview
 
@@ -245,10 +248,10 @@ Use `--checkpoint` with either a local checkpoint path or one of the released ch
 If you use SteerViT in your research, please cite:
 
 ```bibtex
-@misc{ruthardt2026steervit,
-      title={Steerable Visual Representations},
-      author={Jona Ruthardt and Manu Gaur and Deva Ramanan and Makarand Tapaswi and Yuki M. Asano},
-      journal={arXiv:2604.02327},
-      year={2026}
+@inproceedings{ruthardt2026steervit,
+  title     = {Steerable Visual Representations},
+  author    = {Ruthardt, Jona and Gaur, Manu and Ramanan, Deva and Tapaswi, Makarand and Asano, Yuki M.},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2026}
 }
 ```
